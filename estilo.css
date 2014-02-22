@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'pica';
+    src: url('font/sansitaone-webfont.eot');
+    src: url('font/sansitaone-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/sansitaone-webfont.woff') format('woff'),
+         url('font/sansitaone-webfont.ttf') format('truetype'),
+         url('font/sansitaone-webfont.svg#sansita_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	margin: 0 0;
+	width: 100%;
+	height: auto; 
+	padding: 0px;
+	background:url('img/bg_bottom.png'), url('img/bg_decorado.png'), #000 ;
+	background-size:100% 10% ,100% auto,100% 100% ;
+	background-repeat:no-repeat ,repeat, no-repeat ;
+	background-position:center bottom,left top, left top ;
+	font-family: 'pica';
+	color: #fff;
+	text-align: center;
+}
+
+.cont
+{
+	margin: 0; auto;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.cont img
+{
+	width: 40%;
+	height: auto;
+}
+
+.cont h1
+{
+	color: #f6e235;
+	font-size: 55px;
+}
+
+.cont h3
+{
+	color: #ebebeb;
+	font-size: 35px;
+}
+
+.botonera li a
+{
+	text-decoration: none;
+	color: #ebebeb;
+}
+
+.botonera li a:hover
+{
+	text-decoration: none;
+	color: #c73072;
+	transition:  0.5s;
+	-webkit-transition:  0.5s; /* Safari */
+}
+
+.botonera li
+{
+	display: inline-block;
+	margin-right: 2%;
+	font-size: 40px;
+	background-color: #c73072;
+	width: 60px;
+	padding: 0.5%;
+	border-radius: 35%;
+	transition:  0.5s;
+	-webkit-transition:  0.5s; /* Safari */
+}
+
+.botonera li:hover
+{
+	display: inline-block;
+	margin-right: 2%;
+	font-size: 40px;
+	background-color: #f6dd34;
+	width: 60px;
+	padding: 0.5%;
+	border-radius: 35%;
+}
+
+footer
+{
+	margin-top: 3%;
+	text-align: center;
+}
+
+
+
+/*---------------- captura -----------*/
+
+#boton
+{
+	display: inline-block;
+	margin-right: 2%;
+	font-size: 40px;
+	background-color: #c73072;
+	width: 250px;
+	color: #ebebeb;
+	border-radius: 5%;
+	transition:  0.5s;
+	-webkit-transition:  0.5s; /* Safari */	
+}
+
+#boton:hover
+{
+	display: inline-block;
+	margin-right: 2%;
+	font-size: 40px;
+	background-color: #c73072;
+	width: 250px;
+	background-color: #f6dd34;
+	color: #c73072;
+	border-radius: 5%;
+	cursor: pointer;
+	transition:  0.5s;
+	-webkit-transition:  0.5s; /* Safari */	
+}
+
+.vf li 
+{
+	display: inline-block;
+}
+
+.vf li img
+{
+	width: 40%;
+	height: auto;
+}
+
+
+
+input
+{
+	width: 80%;
+	height: 100%;
+	margin-top: 5px;
+	outline-style: none;
+	border:none;
+	font-size: 35px;
+	background-color: rgba(219,12,105,0.4);
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+
+}
+
